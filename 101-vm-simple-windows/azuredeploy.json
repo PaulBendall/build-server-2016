@@ -33,13 +33,13 @@
   },
   "variables": {
     "storageAccountName": "[concat(uniquestring(resourceGroup().id), 'sawinvm')]",
-    "nicName": "TP-2016-VM-Nic",
+    "nicName": "TP2016VMNic",
     "addressPrefix": "192.168.0.0/16",
-    "subnetName": "TP-2016-Subnet",
+    "subnetName": "TP2016Subnet",
     "subnetPrefix": "192.168.150.0/24",
-    "publicIPAddressName": "TP-2016-PublicIP",
-    "vmName": "Server2016-Bld-00-01",
-    "virtualNetworkName": "TP-2016-vNet",
+    "publicIPAddressName": "TP2016PublicIP",
+    "vmName": "Server2016Bld0001",
+    "virtualNetworkName": "TP2016vNet",
     "subnetRef": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'), variables('subnetName'))]"
   },
   "resources": [
@@ -143,7 +143,7 @@
           },
           "dataDisks": [
             {
-              "diskSizeGB": "1023",
+              "diskSizeGB": "10",
               "lun": 0,
               "createOption": "Empty"
             }
