@@ -40,8 +40,7 @@
     "publicIPAddressName": "TP2016PublicIP",
     "vmName": "Server2016Bld0001",
     "virtualNetworkName": "TP2016vNet",
-    "subnetRef": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'), variables('subnetName'))]",
-    "osDiskName": "OSDisk"
+    "subnetRef": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'), variables('subnetName'))]"
   },
   "resources": [
     {
@@ -140,7 +139,6 @@
             "version": "latest"
           },
           "osDisk": {
-            "name": "[variables('osDiskName')]",
             "createOption": "FromImage"
           },
           "dataDisks": [
