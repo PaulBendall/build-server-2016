@@ -23,9 +23,7 @@
     "windowsOSVersion": {
       "type": "string",
       "defaultValue": "2016-Datacenter",
-      "allowedValues": [
-        "2016-Datacenter"
-      ],
+      "allowedValues": ["2016-Datacenter"],
       "metadata": {
         "description": "The Windows version for the VM from the Azure image library."
       }
@@ -38,7 +36,7 @@
     "subnetName": "TP2016Subnet",
     "subnetPrefix": "192.168.150.0/24",
     "publicIPAddressName": "TP2016PublicIP",
-    "vmName": "Server2016Bld0001",
+    "vmName": "Win2016Bld0001",
     "virtualNetworkName": "TP2016vNet",
     "subnetRef": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'), variables('subnetName'))]"
   },
@@ -114,7 +112,7 @@
       }
     },
     {
-      "apiVersion": "2016-08-30",
+      "apiVersion": "2016-04-30-preview",
       "type": "Microsoft.Compute/virtualMachines",
       "name": "[variables('vmName')]",
       "location": "[resourceGroup().location]",
