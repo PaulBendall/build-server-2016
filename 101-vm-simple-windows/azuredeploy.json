@@ -140,9 +140,7 @@
             "version": "latest"
           },
           "osDisk": {
-            "properties": {
-              "name": "[variables('osDiskName')]"
-          },
+            "name": "[variables('osDiskName')]",
             "createOption": "FromImage"
           },
           "dataDisks": [
