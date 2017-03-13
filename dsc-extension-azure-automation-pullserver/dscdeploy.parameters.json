@@ -12,13 +12,13 @@
             "value": "UpdateLCMforAAPull.ps1\\ConfigureLCMforAAPull"
         },
         "registrationKey": {
-            "value": ""
+            "value": "j3HREo/9sMvGkBPGgGm3RUCk99ToAUxqbbFWY5wuKz1DgjDs3Bm3DXPpHtYAVoitE3N0dP2g86Hb1TaF0zX4Nw=="
         },
         "registrationUrl": {
-            "value": ""
+            "value": "https://uks-agentservice-prod-1.azure-automation.net/accounts/9fea6b98-fb08-4fe1-a363-50e9c0330dac"
         },
         "nodeConfigurationName": {
-            "value": ""
+            "value": "Win2016Bld0001"
         },
         "configurationMode": {
             "value": "ApplyAndMonitor"
