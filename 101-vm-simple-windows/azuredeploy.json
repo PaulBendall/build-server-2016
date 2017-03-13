@@ -163,7 +163,7 @@
       }
     },
     {
-      "apiVersion": "2015-01-01", 
+      "apiVersion": "2016-02-01", 
       "name": "linkedTemplate", 
       "type": "Microsoft.Resources/deployments", 
       "properties": { 
