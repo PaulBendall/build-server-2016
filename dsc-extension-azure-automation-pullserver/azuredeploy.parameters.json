@@ -3,10 +3,10 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "vmName": {
-            "value": "myVM001"
+            "value": "Win2016Bld0001"
         },
         "modulesUrl": {
-            "value": "https://github.com/Azure/azure-quickstart-templates/raw/master/dsc-extension-azure-automation-pullserver/UpdateLCMforAAPull.zip"
+            "value": "https://github.com/PaulBendall/build-server-2016/raw/master/dsc-extension-azure-automation-pullserver/UpdateLCMforAAPull.zip"
         },
         "configurationFunction": {
             "value": "UpdateLCMforAAPull.ps1\\ConfigureLCMforAAPull"
@@ -39,7 +39,7 @@
             "value": false
         },
         "timestamp": {
-            "value": "MM/dd/yyyy H:mm:ss tt"
+            "value": "dd/MM/yyyy H:mm:ss tt"
         }
     }
 }
