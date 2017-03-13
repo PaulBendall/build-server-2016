@@ -175,10 +175,7 @@
         "parametersLink": {
           "uri": "https://raw.githubusercontent.com/PaulBendall/build-server-2016/master/dsc-extension-azure-automation-pullserver/dscdeploy.parameters.json",
           "contentVersion": "1.0.0.0"      
-          },
-        "debugSetting": {
-          "detailLevel": "requestContent, responseContent"
-        }
+          }
       }
     }
   ],
