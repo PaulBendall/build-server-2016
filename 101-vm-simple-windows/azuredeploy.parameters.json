@@ -3,13 +3,13 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "adminUsername": {
-      "value": "GEN-USER"
+      "value": "supervisor"
     },
     "adminPassword": {
-      "value": "GEN-PASSWORD"
+      "value": "Password123"
     },
     "dnsLabelPrefix": {
-      "value": "GEN-UNIQUE"
+      "value": "tpwin2016"
     }
   }
 }
