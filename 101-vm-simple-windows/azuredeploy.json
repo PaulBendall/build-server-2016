@@ -167,11 +167,18 @@
       "name": "linkedTemplate", 
       "type": "Microsoft.Resources/deployments", 
       "properties": { 
-        "mode": "Incremental", 
         "templateLink": {
           "uri": "https://raw.githubusercontent.com/PaulBendall/build-server-2016/master/dsc-extension-azure-automation-pullserver/dscdeploy.json",
           "contentVersion":"1.0.0.0"
-        } 
+          }, 
+        "mode": "Incremental", 
+        "parametersLink": {
+          "uri": "http://mystorageaccount.blob.core.windows.net/templates/parameters.json",
+          "contentVersion": "1.0.0.0"      
+          },
+        "debugSetting": {
+          "detailLevel": "requestContent, responseContent"
+        }
       }
     }
   ],
